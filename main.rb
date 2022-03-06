@@ -91,7 +91,7 @@ end
 
 p flattener(a)
 
-# Build a method #seperate that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+# 6.0 Build a method #merge_sort that takes in an array and returns a sorted array, using a recursive merge sort methodology.
 module Sorting
   def self.seperate(array, sep_vals = [])
     if array.length == 1
